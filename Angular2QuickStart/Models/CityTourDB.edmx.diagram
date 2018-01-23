@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8bb2065a1cd647d5adcce3c00154faf6" Name="Diagram1">
+        <EntityTypeShape EntityType="CityTourModel.Address" Width="1.5" PointX="1.5" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="CityTourModel.Cart" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CityTourModel.CartItem" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CityTourModel.Category" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CityTourModel.Customer" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="CityTourModel.Featured" Width="1.5" PointX="5.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CityTourModel.Product" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CityTourModel.ProductImage" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="CityTourModel.Role" Width="1.5" PointX="7.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CityTourModel.sysdiagram" Width="1.5" PointX="7.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CityTourModel.User" Width="1.5" PointX="3" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CityTourModel.UserAccount" Width="1.5" PointX="10" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="CityTourModel.FK_Customer_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="CityTourModel.FK_Cart_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="CityTourModel.FK_CartItem_Cart" ManuallyRouted="false" />
+        <AssociationConnector Association="CityTourModel.FK_CartItem_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="CityTourModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="CityTourModel.FK_User_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="CityTourModel.FK_Featured_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="CityTourModel.FK_ProductImage_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="CityTourModel.FK_UserAccount_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
